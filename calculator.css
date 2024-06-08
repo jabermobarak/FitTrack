@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: whitesmoke;
+}
+h1,h3{
+    text-align: center;
+    color: white;
+    background-color: #298b9b;
+   
+}
+ h1{
+    padding-top: 2%;
+    font-size: 2.2vw;
+}
+ h3{
+    border-bottom: solid 1px rgb(224, 224, 224);
+    padding-bottom: 2%;
+    font-size: 1.5vw;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.inputs{
+   
+    margin-left: 37%;
+    width: 20%;
+    height: 60%;
+    margin-top: 3.5%;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: #298b9b ;
+   
+    padding-left: 5%
+    
+}
+.inputs input{
+    width: 82%;
+    height: 6.4%;
+    outline: none;
+    padding-left: 2%;
+    background-color: whitesmoke;
+    border: none;
+}
+.inputs p{
+   
+    padding-top: 4.9%;
+    color:whitesmoke;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-size: 1.2vw;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+.inputs button{
+    margin-top: 4%;
+    height: 7.6%;
+    width: 25%;
+    font-weight: bold;
+    color:#298b9b;
+    background-color:whitesmoke ;
+    border: none;
+    font-size: 0.89vw;
+
+}
+
+#total{
+    margin-left: 0;
+    margin-top: -2%;
+   
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.footer{
+    border-top: solid 1px rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(205, 205, 205);
+    margin-left: -1%;
+    margin-top: 5%;
+    height: 15%;
+    background-color: #298b9b;
+   
+  
+   
+   
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+
+    margin-left: 5%;
+    text-align: center;
+    padding-right: 0%;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 1.3vw;
+ 
+   
+  
+    
+}
+#copy{
+    margin-left: 47%;
+    padding-right: 0%;
+    
+}
+#copy:hover{
+    color:  rgb(255, 255, 255);
+    
+}
+
+.footer a:hover{
+    color:  rgb(0, 115, 255);
+    
+}
+.footer{
+    height: 15%;
+}

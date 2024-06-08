@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+}
+body.dark-mode {
+      background-color: #000000;
+      color: #fff;
+    }
+    body.dark-mode h1{
+        color: white;
+    }
+    body.dark-mode p{
+        color: rgb(255, 255, 255);
+    }
+    body.dark-mode .Menu{
+        border-bottom: solid rgb(255, 255, 255) 1px;
+    border-top: solid rgb(255, 255, 255) 1px;
+    }
+    body.dark-mode .Menu a{
+       color: white;
+    }
+    body.dark-mode .Menu input[type=search]{
+        color: white;
+    }
+    .dark-mode .signup {
+      
+        background-color: white;
+        
+    }
+    .dark-mode .signup a{
+      
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        
+    }
+    .dark-mode #darkimg{
+        background-color: white;
+    }
+      #darkimg{
+        width: 14%;
+        
+        margin-top: 2%;
+        margin-left: -84%;
+        position: absolute;
+        background-color:transparent;
+      }
+
+h1 {
+
+    margin-left: 6%;
+    padding-top: 1.5%;
+    padding-bottom: 0.8%;
+    color: rgb(10, 10, 10);
+    font-family: serif;
+    font-size: 2.4vw;
+
+
+}
+
+.Menu {
+   
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-bottom: solid black 1px;
+    border-top: solid black 1px;
+    margin-left: 6%;
+    margin-right: 2%;
+   
+    align-items: center;
+    width: 86%;
+}
+
+.Menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+    font-size: 1.5vw;
+    border-style: none;
+    margin-right: 10%;
+    padding-left: 2%;
+}
+
+.Menu input {
+    margin-right: 0%;
+    padding-left: 3%;
+    border: none;
+    outline: none;
+    font-size: 1.4vw;
+    width: 20%;
+    background-color: transparent;
+
+
+}
+.Menu a:hover {
+    color: rgb(0, 115, 255);
+
+
+}
+
+.nav-buttons{
+    width: 20%;
+    float : right;
+    height: 7%;
+    position: relative;
+    margin-right: 8%;
+    margin-bottom: 0.5%;
+}
+
+.login{
+    border-radius: 20px;
+    position: absolute;
+    background-color: rgb(0, 115, 255);
+    width: 30%;
+    height: 73%;
+    font-weight: bold;
+    border-style: none;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+.login a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+}
+.signup {
+    background-color: black;
+    width:32%;
+    height: 73%;
+    border-radius: 20px;
+    margin-left: 68%;
+    border-style: none;
+    font-weight: bold;
+    margin-top: 3%;
+}
+.signup a{
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+}
+
+.gym h2 {
+    padding-top: 5% ;
+    padding-left: 6%;
+    width: 40%;
+    padding-bottom: 1.5%;
+    font-size: 2vw;
+}
+.gym h2 span {
+    color: rgb(0, 102, 255);
+}
+
+.gym p {
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    padding-left: 6%;
+    width: 40%;
+}
+.gym img{
+    width: 38%;
+    margin-left: 6%;
+}
+.footer{
+    border-top: solid 1px rgb(205, 205, 205);
+    border-bottom: solid 1px rgb(205, 205, 205);
+    margin-left: -1%;
+    height: 15%;
+    background-color: #298b9b;
+    margin-right: -0.5%;
+   
+   
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 5%;
+    text-align: center;
+    padding-right: 0%;
+    font-weight: bold;
+    margin-top: 3%;
+    font-size: 1.3vw;
+    
+ 
+   
+  
+    
+}
+html,body{
+    width: 99.7%;
+    height: 100%;
+}
+#copy{
+    margin-left: 47%;
+    padding-right: 0%;
+    
+}
+#copy:hover{
+    color:  rgb(255, 255, 255);
+    
+}
+
+.footer a:hover{
+    color:rgb(177, 177, 177);
+ 
+    
+}
+
